@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6ebe7;
+    color: #333;
+}
+
+header {
+    background-color: #ccc;
+    padding: 20px;
+    text-align: left;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+button {
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.map {
+    margin: 20px 0;
+    width: 300px;
+    height: 200px;
+}
+
+.carousel {
+    display: flex;
+    overflow: auto;
+}
+
+.carousel .item {
+    background-color: #85bb65;
+    padding: 10px;
+    margin-right: 10px;
+    color: white;
+    text-align: center;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer-links a {
+    margin: 0 10px;
+    color: #2e7d32;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
